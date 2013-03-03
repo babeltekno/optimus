@@ -79,14 +79,7 @@ In this case, ajax-optimus is provide three method witch rich and return value w
     <h4 class="main-header">Syntax</h4>
     <code>ca-ajax-data="form[attr_name='value_name']"</code>
     <h4 class="main-header">Example</h4>
-    <div class="demo-btn"> 
-        <form name="ca-form-user">
-            <input type="text" name="yourname" ca-validation="required"> Input your name
-        </form>
-        <p>
-            <a class="ca-btn" href="ajax/data/data.php" ca-ajax="true" ca-ajax-type="POST" ca-ajax-data="form[name='ca-form-user']" ca-ajax-target="ca-modalbox">send</a>
-        </p>
-    </div> 
+    
     <pre class="prettyprint">
 &lt;form name="ca-form-user"&gt;
    &lt;input type="text" name="yourname"&gt; Input your name
@@ -108,14 +101,7 @@ In this case, ajax-optimus is provide three method witch rich and return value w
     <h4 class="main-header">Syntax</h4>
     <code>ca-ajax-redirect="url_redirect"</code>
     <h4 class="main-header">Example</h4>
-    <div class="demo-btn"> 
-        <form name="ca-form-redirect">
-            <input type="text" name="yourname" ca-validation="required"> Input your name
-        </form>
-        <p>
-            <a class="ca-btn" href="ajax/data/data.php" ca-ajax="true" ca-ajax-type="POST" ca-ajax-redirect="ajax/data/redirect.php" ca-ajax-data="form[name='ca-form-user']" ca-ajax-target="#ca_right">send</a>
-        </p>
-    </div> 
+    
     <pre class="prettyprint">
 &lt;form name="ca-form-redirect"&gt;
    &lt;input type="text" name="yourname" ca-validation="required" &gt; Input your name
@@ -138,16 +124,7 @@ In this case, ajax-optimus is provide three method witch rich and return value w
     <h4 class="main-header">Syntax</h4>
     <code>ca-ajax-target="your_target"</code>
     <h4 class="main-header">Example</h4>
-    <div class="demo-btn"> 
-        <span class="ca-btn" href="ajax/data/put.php" ca-ajax="true" ca-ajax-target="#id-target">id</span> OR 
-        <span class="ca-btn" ca-ajax-url="ajax/data/put.php" ca-ajax="true" ca-ajax-target=".class-target">class</span> OR
-        <span class="ca-btn" href="ajax/data/put.php" ca-ajax="true" ca-ajax-target="div[name='my-target']">other</span> OR
-        <span class="ca-btn" href="ajax/data/modal.php" ca-ajax="true" ca-ajax-target="ca-modalbox">modalbox</span>
-        <span class="btn btn-inverse" href="../data/empty.php" ca-ajax="true" ca-ajax-type="PUT" ca-ajax-target="#id-target">reset</span>
-    </div>
-    <div id="id-target" class="target class-target" name="my-target">
-        [target]
-    </div> 
+    
 
     <pre class="prettyprint">
 &lt;a href="ajax/data/put.php" ca-ajax="true" ca-ajax-target="#id-target"&gt;id&lt;/a&gt;
@@ -179,14 +156,7 @@ In this case, ajax-optimus is provide three method witch rich and return value w
     <h4 class="main-header">Syntax</h4>
     <code>ca-ajax-type="PUT"</code>
     <h4 class="main-header">Example</h4>
-    <p> 
-        <a class="ca-btn" href="ajax/data/put.php" ca-ajax="true" ca-ajax-type="PUT" ca-ajax-target="#put-target">PUT a html page</a>
-        <a class="ca-btn" href="../data/empty.php" ca-ajax="true" ca-ajax-type="PUT" ca-ajax-target="#put-target">reset</a>
-    </p>
-    <div id="put-target" class="target">
-        [target]
-    </div> 
-
+   
     <pre class="prettyprint">
 &lt;a href="ajax/data/put.php" ca-ajax="true" ca-ajax-type="PUT" ca-ajax-target="#target"&gt;PUT a html page&lt;/a&gt;
     </pre> 
@@ -201,18 +171,7 @@ In this case, ajax-optimus is provide three method witch rich and return value w
     <h4 class="main-header">Syntax</h4>
     <code>ca-ajax-type="GET"</code>
     <h4 class="main-header">Example</h4>
-    <div class="demo-btn"> 
-        <form id="data-get">
-            <input type="text" name="yourname" ca-validation="required"placeholder="Insert your name"> Your Name
-        </form>
-        <p>
-            <a class="ca-btn" href="ajax/data/get.php" ca-ajax="true" ca-ajax-data="#data-get" ca-ajax-type="GET" ca-ajax-target="#get-target">Submit</a>
-            <a class="ca-btn" onclick="ca_reset_form()" href="../data/empty.php" ca-ajax="true" ca-ajax-type="PUT" ca-ajax-target="#GET-target">reset</a>
-        </p>
-    </div>
-    <div id="get-target" class="target">
-        [target]
-    </div> 
+    
 
     <pre class="prettyprint">
 &lt;form id="data-get"&gt;
@@ -235,18 +194,7 @@ In this case, ajax-optimus is provide three method witch rich and return value w
     <h4 class="main-header">Syntax</h4>
     <code>ca-ajax-type="POST"</code>
     <h4 class="main-header">Example</h4>
-    <div class="demo-btn"> 
-        <form id="data-post">
-            <input type="text" name="yourname" ca-tip-icon="icon-warning-sign" placeholder="Insert your name" ca-validation="required"> Your Name
-        </form>
-        <p>
-            <a class="ca-btn ca-tip-bottom"  ca-original-title="HotKeys(ALT+S)" accesskey="S" href="ajax/data/post.php" ca-ajax="true" ca-ajax-data="#data-post" ca-ajax-type="POST" ca-ajax-target="#post-target">Submit</a>
-            <a class="ca-btn ca-tip-top"  ca-original-title="HotKeys(ALT+X)" accesskey="X" onclick="ca_reset_form()" href="../data/empty.php" ca-ajax="true" ca-ajax-type="PUT" ca-ajax-target="#post-target">reset</a>
-        </p>
-    </div>
-    <div id="post-target" class="target">
-        [target]
-    </div> 
+    
 
     <pre class="prettyprint">
 &lt;form id="data-post"&gt;
@@ -268,14 +216,7 @@ In this case, ajax-optimus is provide three method witch rich and return value w
     <h5 class="main-header">Syntax</h5>
     <code>ca-ajax-url="your_url"</code>
     <h5 class="main-header">Example</h5>
-    <div class="demo-btn"> 
-        <a class="ca-btn" href="ajax/data/put.php" ca-ajax="true" ca-ajax-target="#url-target">href</a> OR 
-        <a class="ca-btn" ca-ajax-url="ajax/data/put.php" ca-ajax="true" ca-ajax-target="#url-target">ca-ajax-url</a>
-        <a class="btn btn-inverse" href="../data/empty.php" ca-ajax="true" ca-ajax-type="PUT" ca-ajax-target="#url-target">reset</a>
-    </div>
-    <div id="url-target" class="target">
-        [target]
-    </div> 
+    
 
     <pre class="prettyprint">
 &lt;a href="ajax/data/put.php" ca-ajax="true" ca-ajax-target="#url-target"&gt;href&lt;/a&gt;
