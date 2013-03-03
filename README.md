@@ -1,5 +1,7 @@
-### Ajax ###
-   
+### README.MD ###
+
+For detail documentation please visit <a href="http://babeltekno.com/optimus/javascript/#ajax/index.php" target="_blank">optimus</a>
+
 What are you looking for in website development?, Is it easy development?... Yes it was, maybe until 90% peoples 
 on website development is looking for it.Whether it's easy understanding from syntax and many thing else.
 So here we are CodeAnalytic TEAM provide a simple javascript framework in every technology build codeanalytic CMS.
