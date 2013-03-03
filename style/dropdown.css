@@ -1,0 +1,22 @@
+.ca-dropdown-target{ 
+    display: none;
+    padding: 0px;
+    z-index:100; 
+    background:#FFF;
+    margin:0px;
+    border:1px solid #ebebeb; 
+} 
+.ca-dropdown-target li{ 
+    margin: 0px;
+    padding: 0px;
+}
+.ca-dropdown-target li:last-child{
+    border-bottom: none;
+}
+.ca-dropdown-target li a{ 
+    text-decoration: none;
+    padding: 0px 3%;
+    float: left;
+    width: 94%;        
+    border-bottom: 1px solid #ebebeb;
+}

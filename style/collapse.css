@@ -1,0 +1,23 @@
+.ca-collapse{
+	padding: 10px 0 0 0;
+	float: left;
+	width: 100%; 
+
+}.ca-coll-child{
+	display: none;
+	border: 1px solid #ebebeb;  
+	border-top: none;
+	margin-bottom: 5px; 
+	padding: 5px;
+}
+.ca-collapse .ca-coll-menu{ 
+	display: block;
+	border: 1px solid #ebebeb; 
+	margin-top: 5px; 
+	padding: 5px;
+	background: #f9f9f9;
+	cursor: pointer;
+}
+.active-coll-content{
+	display: block;
+}

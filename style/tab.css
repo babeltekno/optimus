@@ -1,0 +1,27 @@
+*[ca-tab-parent],.ca-tab{
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 5px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.ca-tab-target .ca-child-tab{
+    display: none;
+}
+.ca-tab-target .ca-child-tab:first-child{
+    display: block;
+}
+.ca-tab > a{
+    padding: 8px 20px;
+    position: relative;
+    top: -3px;
+    border-bottom: 1px solid #ebebeb; 
+    background: #fff;
+    z-index: 10;
+    cursor: pointer;
+}
+.ca-tab > a.active{
+    top: -2px;
+    border: 1px solid #ebebeb; 
+    border-bottom: none;
+} 

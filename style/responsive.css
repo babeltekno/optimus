@@ -1,0 +1,97 @@
+
+/*====================================================================== 
+/* Tablet Landscape (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 979px) { 
+    .ca-mview{
+        display: none;
+    } 
+}
+
+/* Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .ca-mview{
+        display: none;
+    }
+}
+
+/* All Mobile Sizes (devices and browser)
+====================================================================== */
+@media only screen and (max-width: 767px) {
+    .ca-mview{
+        display: none;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .doc-left,.fixed{ 
+        position: static; 
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .doc-left{
+        margin-top: 40px;
+    }
+    .doc-right{
+        width: 96%;
+        padding: 2%;
+    }
+    pre{
+        width: 96%;
+    }
+    .ca-bview{
+        display: none;
+    }
+    .ca-mview{
+        display: block;
+    }
+    .doc-top{
+        float: left;
+        width: 98%;
+        padding: 10px 1%;
+    }
+    .ca-collapse-menu{ 
+        right: 2%;
+        top:20px; 
+    } 
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+=================================================================== */
+@media only screen and (max-width: 479px) {
+    .doc-left,.fixed{ 
+        position: static; 
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .doc-left{
+        margin-top: 40px;
+    }
+    .doc-right{
+        width: 96%;
+        padding: 2%;
+    }
+    pre{
+        width: 93%;
+    }
+    .ca-bview{
+        display: none;
+    }
+    .ca-mview{
+        display: block;
+    }
+    .doc-top{
+        float: left;
+        width: 98%;
+        padding: 10px 1%;
+    }
+    .ca-collapse-menu{ 
+        right: 2%;
+        top:20px; 
+    } 
+}

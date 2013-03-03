@@ -1,0 +1,9 @@
+#ca-tooltip{     
+    background:#333;
+    padding:5px;
+    color: #fff;
+    display:none; 
+}
+#ca-tooltip span.t-carret{
+    color: #333;
+}

@@ -1,0 +1,72 @@
+.hidden{
+    display: none;
+}
+.block{
+    display: block;
+}
+code{ 
+    color: #ff0000; 
+    padding: 1px 5px;
+    border: 1px solid #ebebeb;
+    background: #f9f9f9;
+}
+button,.ca-btn{ 
+    padding: 5px 5px 6px 5px;
+    background: #F9F9F9;
+    border: 1px solid #ebebeb; 
+    cursor: pointer; 
+}
+button[disabled="disabled"],.ca-btn[disabled="disabled"]{
+    background: #ccc;
+    opacity: 0.5;
+}
+[type="text"],textarea,[type="radio"],[type="checkbox"]{
+    padding: 5px;
+    border: 1px solid #ebebeb;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0px; 
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 12px;
+}
+table.ca-table{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    float: left;
+}
+table.ca-table-border{
+    border-right: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+}
+table.ca-table tr+tr, table.ca-table tr, table.ca-table td, table.ca-table td+td, table.ca-table th, table.ca-table th+th{
+    padding: 5px; 
+}
+table.ca-table-border tr+tr, table.ca-table-border tr, table.ca-table-border td, table.ca-table-border td+td, table.ca-table-border th, table.ca-table-border th+th{ 
+    border-left: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+table.ca-table tr.zebra{
+    background: #f9f9f9;
+}
+.ca-right{
+    float: right;
+}
+form{
+    float: left;
+    width: 100%;
+}

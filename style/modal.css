@@ -1,0 +1,50 @@
+/*====================================================================== 
+    7. modalBox
+====================================================================== */
+.ca-modal{
+    float: left;
+    width: 100%; 
+    background: transparent;
+    position: absolute;
+}
+.ca-modal-header{
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    padding: 0px;
+    margin: 0px;
+}
+.ca-modal-header h1, .ca-modal-header h2, .ca-modal-header h3, .ca-modal-header h4{
+    padding: 6px;
+    margin: 5px 0;
+    font-size: 24px;
+}
+.ca-modal-header button{
+    position: absolute;
+    padding: 0px 5px;
+    cursor: pointer;
+    right: 0;
+    top: 5px;
+}
+.ca-modal-box{
+    position: absolute;
+    text-align: left;
+    background:  none repeat scroll 0 0 #ffffff;
+    z-index: 10;
+    top:10px; 
+    float: left; 
+    z-index: 101;
+    border:4px solid #DDD 
+} 
+.ca-modal-content{
+    padding: 8px 10px 5px;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.ca-modal-footer{
+    padding: 5px;
+    border-top: 1px solid #ebebeb; 
+    margin: 0px;
+    text-align: right;
+}

@@ -1,0 +1,20 @@
+
+/*CRUD*/
+div#ca-option-event{
+    padding: 6px 1% 5px 1%;
+    float: left; 
+    width: 98%;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+div#ca-option-event input[name="search"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+.ca-btn-crud{ 
+    padding: 2px 10px;
+    margin-top: -1px;
+    margin-left: 0px;
+    font-size: 16px;
+}
