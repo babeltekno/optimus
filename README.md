@@ -11,7 +11,7 @@ I'll remember that codeanalytic is use much javascript framework especially jQue
 framework for support codeanalytic development with fast and easy.
    
    
-[b]FAST[/b], is the main thing, that we provide in codeanalytic CMS. There are many way to optimize your website to be fast, where one of them is ajax optimize.
+<b>FAST</b>, is the main thing, that we provide in codeanalytic CMS. There are many way to optimize your website to be fast, where one of them is ajax optimize.
 We are provide a simple javascript API to developer, and we named <code>ajax-optimus</code>, where
 ajax-optimus is allow you to add ajax request in every element has defined the attribute <code>ca-ajax="true"</code> with easy and simple.
 In this case, ajax-optimus is provide three method witch rich and return value with different method. They are 
